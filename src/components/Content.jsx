@@ -7,8 +7,8 @@ export default function Content() {
   return (
     <section>
       <div className="relative">
-        <div className="w-full">
-          <img src={Hero} alt="Hero" />
+        <div >
+          <img src={Hero} alt="Hero" className="bg-cover w-full"/>
         </div>
         <div className="lg:absolute lg:bottom-10 md:bottom-0 lg:left-16 bg-gradient-to-r from-[rgba(77,202,121,1)] to-[rgba(28,189,221,1)] lg:w-[630px] md:w-full p-4 ">
           <p className="font-bold text-4xl lg:text-5xl md:text-5xl text-white ml-4 mr-4 leading-11 ">
